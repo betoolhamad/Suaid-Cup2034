@@ -1,0 +1,310 @@
+* {
+    font-family: serif;
+}
+.navbar {
+    background-color : rgb(163, 93, 165,0.7);
+}
+
+.navbar:hover{
+    background-color: rgba(163, 93, 165, 0.9); /* عندما يتحرك الماوس على المنيو */
+
+}
+
+.nav-item {
+    transition: transform 0.6s ease, background-color 0.6s ease;
+    font-family: serif;
+}
+
+.nav-item:hover {
+    transform: scale(0.9); /* تكبير العنصر بالكامل */
+    
+}
+
+
+.navbar-nav a {
+    color: aliceblue;
+    transition: color 0.3s ease;
+}
+
+
+.navbar-nav .nav-link:hover  {
+    color: rgb(95, 52, 131); /* تغيير لون النص عند تحويم الحاوية */
+}
+
+
+.social_icons a{
+    color: aliceblue;
+}
+
+/* Ending Navbar (menu) */
+
+.carousel-item img {
+    object-fit:cover;  /* لتغطية الصورة بشكل مناسب داخل الحاوية */
+    transition-duration: 0.2s;  /* تقليل المدة لتسريع الانتقال (مثال 0.5 ثانية) */
+    height: 100%; 
+}
+
+
+
+/* .carousel-item img {
+    object-fit: cover;
+    /* height: 100vh;  */
+
+
+@media (max-width: 768px) {
+    .carousel-item img  {
+        height: 100vh    }
+}
+
+
+.Home-cards .card-body {
+    font-family: "Cairo", serif;
+    font-optical-sizing: auto;
+    font-style:normal;
+    font-weight:600px;
+}
+
+
+.Home-cards .card {
+    width: 100%;
+    height: 100%; 
+    margin-top: 50px;
+
+
+}
+
+.Home-cards .card img{
+    width: 100%;
+    height: 100%;  
+}
+
+.title {
+    margin-top: 300px;
+    padding-right: 90px ;
+
+}
+
+/* start the tikets */
+
+
+.Tikets{
+    margin-top: 100px;
+}
+
+.event-card {
+    display: flex;
+    width: 100%;
+    max-width: 1500px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 80px;
+}
+
+.event-card .date {
+    background-color: #000;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    text-align: center;
+}
+
+.event-card .date h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+.event-card .date span {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.event-card .details {
+    padding: 20px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.event-card .details h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.event-card .details p {
+    margin: 20px 0;
+    color: #555;
+    font-size: 0.9rem;
+}
+
+.event-card .details .info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.event-card .details .info span {
+    font-size: 0.8rem;
+    color: #888;
+}
+
+.event-card .details .info img {
+    width: 50px;
+    height: 50px;
+}
+
+.event-card .details a {
+    margin-top: 15px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(163, 93, 165);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+}
+
+.event-card .details a:hover {
+    background-color: rgba(90, 45, 92)
+}
+
+.event-card {
+    background-image: url("http://atleticos.like-themes.com/wp-content/uploads/2024/03/tickets-bg.png");
+}
+
+footer {
+    text-align: center;
+    padding: 12px;
+    background-color: rgb(163, 93, 165,0.7);
+    color: #ffffff;
+    /* margin-top: 80px; */
+    font-size: 18px;
+  }
+
+
+  .bg img {
+    width: 100%;
+    margin-top: -400px;
+  }
+
+
+  .ft {
+    text-align: center;
+    padding: 12px;
+    background-color: rgb(163, 93, 165,0.7);
+    color: #ffffff;
+    /* margin-top: 80px; */
+    font-size: 18px;
+    margin-top: 80px; ;
+  }
+
+
+  .bg2 img {
+    width: 100%;
+    height: 100vh;
+    margin-top: -100px;
+  }
+
+  .c1 {
+
+    transition: transform 0.5s ease;
+
+  }
+
+  .c1:hover{
+    transform: scale(1.1); /* تكبير العنصر بالكامل */
+    color: rgb(73, 29, 103);
+  }
+
+  .c2 {
+
+    transition: transform 0.5s ease;
+
+  }
+
+  .c2:hover{
+    transform: scale(1.1); /* تكبير العنصر بالكامل */
+    color: rgb(73, 29, 103);
+  }
+
+  .c3 {
+
+    transition: transform 0.5s ease;
+
+  }
+
+  .c3:hover{
+    transform: scale(1.1); /* تكبير العنصر بالكامل */
+    color: rgb(73, 29, 103);
+  }
+
+  .c4 {
+
+    transition: transform 0.5s ease;
+
+  }
+
+  .c4:hover{
+    transform: scale(1.1); /* تكبير العنصر بالكامل */
+    color: rgb(73, 29, 103);
+  }
+
+  .c1 a{
+    text-decoration: none;
+    color: rgb(5, 68, 120);
+
+  }
+
+  .c1 a:hover {
+    color: rgb(142, 33, 214);
+
+  }
+
+
+  .c2 a{
+    text-decoration: none;
+    color: rgb(5, 68, 120);
+
+  }
+
+  .c2 a:hover {
+    color: rgb(142, 33, 214);
+
+  }
+
+
+  .c3 a{
+    text-decoration: none;
+    color: rgb(5, 68, 120);
+
+  }
+
+  .c3 a:hover {
+    color: rgb(142, 33, 214);
+
+  }
+
+  .c4 a{
+    text-decoration: none;
+    color: rgb(5, 68, 120);
+
+  }
+
+  .c4 a:hover {
+    color: rgb(142, 33, 214);
+
+  }
+
+
+
+  
+
+  
